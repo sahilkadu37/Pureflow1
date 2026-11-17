@@ -1,6 +1,6 @@
 ﻿import { useCallback, useEffect, useState } from 'react'
 import { BrowserRouter, NavLink, Route, Routes, useLocation } from 'react-router-dom'
-import { motion, MotionConfig } from 'framer-motion'
+import { AnimatePresence, motion, MotionConfig } from 'framer-motion'
 import { Activity, CheckCircle2, ChevronRight, CloudSun, Database, Droplets, FileCheck2, FileText, Gauge, GitMerge, Globe2, LayoutDashboard, Menu, Search, ShieldCheck, Sparkles, Waves, X, Thermometer, PanelLeftClose, PanelLeftOpen } from 'lucide-react'
 import { Area, AreaChart, Bar, BarChart, CartesianGrid, Cell, Line, LineChart, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
 import { getDashboard } from './services/api'
@@ -13,6 +13,7 @@ import WaterAnalytics from './pages/WaterAnalytics'
 import ClimateAnalysis from './pages/ClimateAnalysis'
 import WaterStress from './pages/WaterStress'
 import { GeometricBackground } from './components/GeometricDecorations'
+import IntroScreen from './components/IntroScreen'
 import './App.css'
 
 const navSections = [
@@ -176,4 +177,13 @@ function AppShell() {
   const title = pages[pathname]?.[0] || 'Overview'
   return <div className="app-shell"><Sidebar collapsed={collapsed} setCollapsed={setCollapsed} mobileOpen={mobileOpen} closeMobile={() => setMobileOpen(false)}/><main className={`main-area ${collapsed ? 'sidebar-collapsed' : ''}`}><Header title={title} openMobile={() => setMobileOpen(true)}/><Routes><Route path="/" element={<Overview/>}/><Route path="/datasets" element={<DatasetExplorer/>}/><Route path="/quality" element={<DataQuality/>}/><Route path="/integration" element={<DatasetIntegration/>}/><Route path="/water" element={<WaterAnalytics/>}/><Route path="/climate" element={<ClimateAnalysis/>}/><Route path="/stress" element={<WaterStress/>}/><Route path="/sql" element={<SQLAnalytics/>}/><Route path="/reports" element={<Reports/>}/></Routes></main></div>
 }
-export default function App() { return <MotionConfig reducedMotion="user"><BrowserRouter><AppShell/></BrowserRouter></MotionConfig> }
+export default function App() {
+  const [showIntro, setShowIntro] = useState(true)
+  const completeIntro = useCallback(() => setShowIntro(false), [])
+
+  return <MotionConfig reducedMotion="user"><AnimatePresence mode="wait">
+    {showIntro
+      ? <IntroScreen key="intro" onComplete={completeIntro} />
+      : <BrowserRouter key="application"><AppShell /></BrowserRouter>}
+  </AnimatePresence></MotionConfig>
+}
