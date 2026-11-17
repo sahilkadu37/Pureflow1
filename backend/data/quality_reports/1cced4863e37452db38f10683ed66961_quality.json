@@ -1,0 +1,520 @@
+{
+  "dataset_id": "1cced4863e37452db38f10683ed66961",
+  "generated_at": "2026-11-14T05:51:21.041482+00:00",
+  "summary": {
+    "rows_before": 85,
+    "rows_after": 85,
+    "columns_before": 21,
+    "columns_after": 21,
+    "missing_values_before": 569,
+    "missing_values_after": 569,
+    "duplicates_before": 0,
+    "duplicates_after": 0,
+    "completeness_before": 68.1232,
+    "completeness_after": 68.1232
+  },
+  "before": {
+    "total_rows": 85,
+    "total_columns": 21,
+    "missing_values": {
+      "id": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "publisher": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "metric": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "scope": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "facility_or_region": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "country": {
+        "count": 26,
+        "percentage": 30.5882
+      },
+      "period": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "wue_l_per_kwh": {
+        "count": 50,
+        "percentage": 58.8235
+      },
+      "withdrawal_million_gal": {
+        "count": 43,
+        "percentage": 50.5882
+      },
+      "discharge_million_gal": {
+        "count": 43,
+        "percentage": 50.5882
+      },
+      "consumption_million_gal": {
+        "count": 43,
+        "percentage": 50.5882
+      },
+      "consumption_million_litres": {
+        "count": 42,
+        "percentage": 49.4118
+      },
+      "source_title": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "source_url": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "source_date": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "retrieved": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "notes": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "energy_wh_per_prompt": {
+        "count": 81,
+        "percentage": 95.2941
+      },
+      "water_ml_per_prompt": {
+        "count": 80,
+        "percentage": 94.1176
+      },
+      "water_million_litres": {
+        "count": 83,
+        "percentage": 97.6471
+      },
+      "water_scope": {
+        "count": 78,
+        "percentage": 91.7647
+      }
+    },
+    "missing_value_count": 569,
+    "missing_value_percentage": 31.8768,
+    "duplicate_row_count": 0,
+    "data_types": {
+      "columns": {
+        "id": "string",
+        "publisher": "str",
+        "metric": "str",
+        "scope": "str",
+        "facility_or_region": "str",
+        "country": "str",
+        "period": "str",
+        "wue_l_per_kwh": "float64",
+        "withdrawal_million_gal": "float64",
+        "discharge_million_gal": "float64",
+        "consumption_million_gal": "float64",
+        "consumption_million_litres": "float64",
+        "source_title": "str",
+        "source_url": "str",
+        "source_date": "str",
+        "retrieved": "str",
+        "notes": "str",
+        "energy_wh_per_prompt": "float64",
+        "water_ml_per_prompt": "float64",
+        "water_million_litres": "float64",
+        "water_scope": "str"
+      },
+      "summary": {
+        "string": 1,
+        "str": 12,
+        "float64": 8
+      }
+    },
+    "unique_values": {
+      "id": 85,
+      "publisher": 10,
+      "metric": 4,
+      "scope": 11,
+      "facility_or_region": 74,
+      "country": 17,
+      "period": 12,
+      "wue_l_per_kwh": 26,
+      "withdrawal_million_gal": 41,
+      "discharge_million_gal": 41,
+      "consumption_million_gal": 37,
+      "consumption_million_litres": 38,
+      "source_title": 14,
+      "source_url": 12,
+      "source_date": 11,
+      "retrieved": 2,
+      "notes": 18,
+      "energy_wh_per_prompt": 4,
+      "water_ml_per_prompt": 5,
+      "water_million_litres": 2,
+      "water_scope": 4
+    },
+    "invalid_values": {
+      "source_date": {
+        "count": 25,
+        "kind": "invalid_dates"
+      },
+      "water_scope": {
+        "count": 7,
+        "kind": "invalid_numerical_values"
+      }
+    },
+    "inconsistent_formats": {
+      "whitespace_values": {},
+      "invalid_date_values": {}
+    },
+    "memory_usage_bytes": 44900,
+    "overall_completeness_percentage": 68.1232
+  },
+  "after": {
+    "total_rows": 85,
+    "total_columns": 21,
+    "missing_values": {
+      "id": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "publisher": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "metric": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "scope": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "facility_or_region": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "country": {
+        "count": 26,
+        "percentage": 30.5882
+      },
+      "period": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "wue_l_per_kwh": {
+        "count": 50,
+        "percentage": 58.8235
+      },
+      "withdrawal_million_gal": {
+        "count": 43,
+        "percentage": 50.5882
+      },
+      "discharge_million_gal": {
+        "count": 43,
+        "percentage": 50.5882
+      },
+      "consumption_million_gal": {
+        "count": 43,
+        "percentage": 50.5882
+      },
+      "consumption_million_litres": {
+        "count": 42,
+        "percentage": 49.4118
+      },
+      "source_title": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "source_url": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "source_date": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "retrieved": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "notes": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "energy_wh_per_prompt": {
+        "count": 81,
+        "percentage": 95.2941
+      },
+      "water_ml_per_prompt": {
+        "count": 80,
+        "percentage": 94.1176
+      },
+      "water_million_litres": {
+        "count": 83,
+        "percentage": 97.6471
+      },
+      "water_scope": {
+        "count": 78,
+        "percentage": 91.7647
+      }
+    },
+    "missing_value_count": 569,
+    "missing_value_percentage": 31.8768,
+    "duplicate_row_count": 0,
+    "data_types": {
+      "columns": {
+        "id": "string",
+        "publisher": "str",
+        "metric": "str",
+        "scope": "str",
+        "facility_or_region": "str",
+        "country": "str",
+        "period": "str",
+        "wue_l_per_kwh": "float64",
+        "withdrawal_million_gal": "float64",
+        "discharge_million_gal": "float64",
+        "consumption_million_gal": "float64",
+        "consumption_million_litres": "float64",
+        "source_title": "str",
+        "source_url": "str",
+        "source_date": "str",
+        "retrieved": "str",
+        "notes": "str",
+        "energy_wh_per_prompt": "float64",
+        "water_ml_per_prompt": "float64",
+        "water_million_litres": "float64",
+        "water_scope": "str"
+      },
+      "summary": {
+        "string": 1,
+        "str": 12,
+        "float64": 8
+      }
+    },
+    "unique_values": {
+      "id": 85,
+      "publisher": 10,
+      "metric": 4,
+      "scope": 11,
+      "facility_or_region": 74,
+      "country": 17,
+      "period": 12,
+      "wue_l_per_kwh": 26,
+      "withdrawal_million_gal": 41,
+      "discharge_million_gal": 41,
+      "consumption_million_gal": 37,
+      "consumption_million_litres": 38,
+      "source_title": 14,
+      "source_url": 12,
+      "source_date": 11,
+      "retrieved": 2,
+      "notes": 18,
+      "energy_wh_per_prompt": 4,
+      "water_ml_per_prompt": 5,
+      "water_million_litres": 2,
+      "water_scope": 4
+    },
+    "invalid_values": {
+      "source_date": {
+        "count": 25,
+        "kind": "invalid_dates"
+      },
+      "water_scope": {
+        "count": 7,
+        "kind": "invalid_numerical_values"
+      }
+    },
+    "inconsistent_formats": {
+      "whitespace_values": {},
+      "invalid_date_values": {}
+    },
+    "memory_usage_bytes": 44900,
+    "overall_completeness_percentage": 68.1232
+  },
+  "problems": [
+    {
+      "problem": "Inconsistent text whitespace",
+      "rows_affected": 0,
+      "values_affected": 0,
+      "action_taken": "No unnecessary text whitespace found."
+    },
+    {
+      "problem": "Date format inconsistencies",
+      "rows_affected": 0,
+      "values_affected": 0,
+      "action_taken": "No fully parseable date values required standardisation.",
+      "columns_affected": {}
+    },
+    {
+      "problem": "Invalid dates",
+      "rows_affected": 25,
+      "values_affected": 25,
+      "action_taken": "Flagged invalid date values and preserved them without guessing a correction.",
+      "columns_affected": {
+        "source_date": 25
+      }
+    },
+    {
+      "problem": "Missing values",
+      "rows_affected": 85,
+      "values_affected": 569,
+      "action_taken": "Preserved missing values and reported them; no measurements or categorical values were imputed."
+    },
+    {
+      "problem": "Invalid values",
+      "rows_affected": 32,
+      "values_affected": 32,
+      "action_taken": "Flagged values outside established numerical/geographical rules or values that could not be parsed; preserved source values.",
+      "columns_affected": {
+        "source_date": {
+          "count": 25,
+          "kind": "invalid_dates"
+        },
+        "water_scope": {
+          "count": 7,
+          "kind": "invalid_numerical_values"
+        }
+      }
+    },
+    {
+      "problem": "Unit conversions",
+      "rows_affected": 0,
+      "action_taken": "No units converted because source unit metadata was not available to establish an unambiguous conversion."
+    },
+    {
+      "problem": "Exact duplicate records",
+      "rows_affected": 0,
+      "action_taken": "No exact duplicate rows found; no rows removed."
+    }
+  ],
+  "validation": {
+    "passed": false,
+    "checks": [
+      {
+        "check": "Column names use lowercase snake_case and are unique",
+        "passed": true,
+        "details": null
+      },
+      {
+        "check": "No exact duplicate rows remain",
+        "passed": true,
+        "details": null
+      },
+      {
+        "check": "Established numerical and date rules",
+        "passed": false,
+        "details": {
+          "source_date": {
+            "count": 25,
+            "kind": "invalid_dates"
+          },
+          "water_scope": {
+            "count": 7,
+            "kind": "invalid_numerical_values"
+          }
+        }
+      }
+    ]
+  },
+  "cleaned_filename": "1cced4863e37452db38f10683ed66961_cleaned.csv",
+  "overall_status": "review_required",
+  "latest_quality_check": null,
+  "cleaning_history": [
+    {
+      "operation": "clean",
+      "timestamp": "2026-11-14T05:51:21.041482+00:00",
+      "cleaned_filename": "1cced4863e37452db38f10683ed66961_cleaned.csv",
+      "validation": {
+        "passed": false,
+        "checks": [
+          {
+            "check": "Column names use lowercase snake_case and are unique",
+            "passed": true,
+            "details": null
+          },
+          {
+            "check": "No exact duplicate rows remain",
+            "passed": true,
+            "details": null
+          },
+          {
+            "check": "Established numerical and date rules",
+            "passed": false,
+            "details": {
+              "source_date": {
+                "count": 25,
+                "kind": "invalid_dates"
+              },
+              "water_scope": {
+                "count": 7,
+                "kind": "invalid_numerical_values"
+              }
+            }
+          }
+        ]
+      },
+      "operations": [
+        {
+          "problem": "Inconsistent text whitespace",
+          "rows_affected": 0,
+          "values_affected": 0,
+          "action_taken": "No unnecessary text whitespace found."
+        },
+        {
+          "problem": "Date format inconsistencies",
+          "rows_affected": 0,
+          "values_affected": 0,
+          "action_taken": "No fully parseable date values required standardisation.",
+          "columns_affected": {}
+        },
+        {
+          "problem": "Invalid dates",
+          "rows_affected": 25,
+          "values_affected": 25,
+          "action_taken": "Flagged invalid date values and preserved them without guessing a correction.",
+          "columns_affected": {
+            "source_date": 25
+          }
+        },
+        {
+          "problem": "Missing values",
+          "rows_affected": 85,
+          "values_affected": 569,
+          "action_taken": "Preserved missing values and reported them; no measurements or categorical values were imputed."
+        },
+        {
+          "problem": "Invalid values",
+          "rows_affected": 32,
+          "values_affected": 32,
+          "action_taken": "Flagged values outside established numerical/geographical rules or values that could not be parsed; preserved source values.",
+          "columns_affected": {
+            "source_date": {
+              "count": 25,
+              "kind": "invalid_dates"
+            },
+            "water_scope": {
+              "count": 7,
+              "kind": "invalid_numerical_values"
+            }
+          }
+        },
+        {
+          "problem": "Unit conversions",
+          "rows_affected": 0,
+          "action_taken": "No units converted because source unit metadata was not available to establish an unambiguous conversion."
+        },
+        {
+          "problem": "Exact duplicate records",
+          "rows_affected": 0,
+          "action_taken": "No exact duplicate rows found; no rows removed."
+        }
+      ]
+    }
+  ]
+}

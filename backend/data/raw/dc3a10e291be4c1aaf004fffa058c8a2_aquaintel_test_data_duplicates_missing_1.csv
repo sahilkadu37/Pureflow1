@@ -1,0 +1,21 @@
+data_center_id,city,date,water_consumption_liters,energy_consumption_kwh,wue_l_per_kwh,cooling_system
+DC001,Mumbai,2026-01-01,12500.0,420.0,0.78,Cooling Tower
+DC002,Pune,2026-01-01,9800.0,350.0,0.72,Chilled Water
+DC003,Hyderabad,2026-01-01,14300.0,510.0,0.81,Cooling Tower
+DC004,Bengaluru,2026-01-01,11200.0,390.0,0.75,Air Cooling
+DC005,Chennai,2026-01-01,15800.0,600.0,0.84,Cooling Tower
+DC006,Delhi,2026-01-01,,470.0,0.79,Chilled Water
+DC007,Kolkata,2026-01-01,10900.0,,0.73,Air Cooling
+DC008,Ahmedabad,2026-01-01,13100.0,455.0,,Cooling Tower
+DC009,Jaipur,2026-01-01,8700.0,310.0,0.7,
+DC010,Lucknow,2026-01-01,12000.0,405.0,0.77,Chilled Water
+DC002,Pune,2026-01-01,9800.0,350.0,0.72,Chilled Water
+DC005,Chennai,2026-01-01,15800.0,600.0,0.84,Cooling Tower
+DC011,Indore,2026-01-02,10100.0,365.0,0.74,Air Cooling
+DC012,Nagpur,2026-01-02,11600.0,410.0,0.76,Chilled Water
+DC013,Surat,2026-01-02,13400.0,490.0,0.8,Cooling Tower
+DC014,Bhopal,2026-01-02,9200.0,330.0,0.71,Air Cooling
+DC015,Kochi,2026-01-02,14700.0,545.0,0.82,Cooling Tower
+DC016,Patna,2026-01-02,10500.0,375.0,0.75,Chilled Water
+DC017,Visakhapatnam,2026-01-02,12800.0,465.0,0.79,Cooling Tower
+DC018,Coimbatore,2026-01-02,9900.0,345.0,0.73,Air Cooling

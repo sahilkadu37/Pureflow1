@@ -1,0 +1,31 @@
+[
+  {
+    "dataset_id": "dc3a10e291be4c1aaf004fffa058c8a2",
+    "original_filename": "aquaintel_test_data_duplicates_missing (1).csv",
+    "stored_filename": "dc3a10e291be4c1aaf004fffa058c8a2_aquaintel_test_data_duplicates_missing_1.csv",
+    "file_format": "csv",
+    "file_size": 1212,
+    "row_count": 20,
+    "column_count": 7,
+    "columns": [
+      "data_center_id",
+      "city",
+      "date",
+      "water_consumption_liters",
+      "energy_consumption_kwh",
+      "wue_l_per_kwh",
+      "cooling_system"
+    ],
+    "data_types": {
+      "data_center_id": "str",
+      "city": "str",
+      "date": "str",
+      "water_consumption_liters": "float64",
+      "energy_consumption_kwh": "float64",
+      "wue_l_per_kwh": "float64",
+      "cooling_system": "str"
+    },
+    "upload_timestamp": "2026-11-15T14:10:40.589901+00:00",
+    "status": "ready"
+  }
+]

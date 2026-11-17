@@ -1,0 +1,156 @@
+[
+  {
+    "job_id": "6954d57f60384ba28f1059194ce17052",
+    "generated_at": "2026-11-14T06:20:06.589605+00:00",
+    "operation": "standardise",
+    "dataset_ids": [
+      "1cced4863e37452db38f10683ed66961"
+    ],
+    "output_filename": "6954d57f60384ba28f1059194ce17052_1cced4863e37452db38f10683ed66961_standardised.csv",
+    "output_rows": 85,
+    "output_columns": [
+      "id",
+      "publisher",
+      "metric",
+      "scope",
+      "facility_or_region",
+      "country",
+      "period",
+      "wue_l_per_kwh",
+      "withdrawal_million_gal",
+      "discharge_million_gal",
+      "consumption_million_gal",
+      "consumption_million_litres",
+      "source_title",
+      "source_url",
+      "source_date",
+      "retrieved",
+      "notes",
+      "energy_wh_per_prompt",
+      "water_ml_per_prompt",
+      "water_million_litres",
+      "water_scope"
+    ],
+    "validation": {
+      "passed": false,
+      "datasets": [
+        {
+          "dataset_id": "1cced4863e37452db38f10683ed66961",
+          "passed": false,
+          "checks": [
+            {
+              "check": "Recognized geographic/time join keys contain no missing values",
+              "passed": false,
+              "details": {
+                "country": 26
+              }
+            },
+            {
+              "check": "Recognized date values parse consistently",
+              "passed": false,
+              "details": {
+                "source_date": 25
+              }
+            },
+            {
+              "check": "Established geographic/numerical ranges",
+              "passed": false,
+              "details": {
+                "water_scope": 7
+              }
+            },
+            {
+              "check": "Exact duplicate records",
+              "passed": true,
+              "details": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "job_id": "1d77239eb6224bc18f3e0e90a318bc48",
+    "generated_at": "2026-11-14T06:14:34.563444+00:00",
+    "operation": "standardise",
+    "dataset_ids": [
+      "1cced4863e37452db38f10683ed66961"
+    ],
+    "output_filename": "1d77239eb6224bc18f3e0e90a318bc48_1cced4863e37452db38f10683ed66961_standardised.csv",
+    "output_rows": 85,
+    "output_columns": [
+      "id",
+      "publisher",
+      "metric",
+      "scope",
+      "facility_or_region",
+      "country",
+      "period",
+      "wue_l_per_kwh",
+      "withdrawal_million_gal",
+      "discharge_million_gal",
+      "consumption_million_gal",
+      "consumption_million_litres",
+      "source_title",
+      "source_url",
+      "source_date",
+      "retrieved",
+      "notes",
+      "energy_wh_per_prompt",
+      "water_ml_per_prompt",
+      "water_million_litres",
+      "water_scope"
+    ],
+    "validation": {
+      "passed": false,
+      "datasets": [
+        {
+          "dataset_id": "1cced4863e37452db38f10683ed66961",
+          "passed": false,
+          "checks": [
+            {
+              "check": "Recognized geographic/time join keys contain no missing values",
+              "passed": false,
+              "details": {
+                "country": 26
+              }
+            },
+            {
+              "check": "Recognized date values parse consistently",
+              "passed": false,
+              "details": {
+                "source_date": 25
+              }
+            },
+            {
+              "check": "Established geographic/numerical ranges",
+              "passed": false,
+              "details": {
+                "water_scope": 7
+              }
+            },
+            {
+              "check": "Exact duplicate records",
+              "passed": true,
+              "details": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "job_id": "ebfc6a6dba0142589455507c10e3d0ee",
+    "generated_at": "2026-11-14T06:03:42.562381+00:00",
+    "operation": "standardise",
+    "dataset_ids": [
+      "1cced4863e37452db38f10683ed66961"
+    ],
+    "output_filename": "ebfc6a6dba0142589455507c10e3d0ee_1cced4863e37452db38f10683ed66961_standardised.csv",
+    "output_rows": 85,
+    "output_columns": null,
+    "validation": {
+      "passed": true
+    }
+  }
+]

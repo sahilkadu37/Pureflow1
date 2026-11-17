@@ -1,0 +1,7 @@
+date,day,period,time,type,status,duration_hrs,reason
+1-11-06,Friday,Period-6,14:30:00 - 15:20:00,Activity Hour,Absent,1,
+1-11-06,Friday,Period-7,15:30:00 - 16:20:00,Activity Hour,Absent,1,
+1-11-05,Thursday,Period-6,14:30:00 - 15:20:00,Design and Analysis of Algorithms,Absent,1,
+1-11-05,Thursday,Period-7,15:30:00 - 16:20:00,Cybersecurity,Absent,1,
+1-10-10,Saturday,Period-4,11:40:00 - 12:25:00,Mentoring,Absent,1,
+1-09-17,Thursday,Period-6,14:30:00 - 15:20:00,Design and Analysis of Algorithms,Absent,1,

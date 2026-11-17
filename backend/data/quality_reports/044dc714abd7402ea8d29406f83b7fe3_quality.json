@@ -1,0 +1,374 @@
+{
+  "dataset_id": "044dc714abd7402ea8d29406f83b7fe3",
+  "generated_at": "2026-11-15T13:40:38.354842+00:00",
+  "summary": {
+    "rows_before": 6,
+    "rows_after": 6,
+    "columns_before": 8,
+    "columns_after": 8,
+    "missing_values_before": 6,
+    "missing_values_after": 6,
+    "duplicates_before": 0,
+    "duplicates_after": 0,
+    "completeness_before": 87.5,
+    "completeness_after": 87.5
+  },
+  "before": {
+    "total_rows": 6,
+    "total_columns": 8,
+    "missing_values": {
+      "Date": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Day": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Period": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Time": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Type": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Status": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Duration (hrs)": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "Reason": {
+        "count": 6,
+        "percentage": 100.0
+      }
+    },
+    "missing_value_count": 6,
+    "missing_value_percentage": 12.5,
+    "duplicate_row_count": 0,
+    "data_types": {
+      "columns": {
+        "Date": "str",
+        "Day": "str",
+        "Period": "str",
+        "Time": "str",
+        "Type": "str",
+        "Status": "str",
+        "Duration (hrs)": "int64",
+        "Reason": "float64"
+      },
+      "summary": {
+        "str": 6,
+        "int64": 1,
+        "float64": 1
+      }
+    },
+    "unique_values": {
+      "Date": 4,
+      "Day": 3,
+      "Period": 3,
+      "Time": 3,
+      "Type": 4,
+      "Status": 1,
+      "Duration (hrs)": 1,
+      "Reason": 0
+    },
+    "invalid_values": {
+      "Time": {
+        "count": 6,
+        "kind": "invalid_dates"
+      }
+    },
+    "inconsistent_formats": {
+      "whitespace_values": {},
+      "invalid_date_values": {}
+    },
+    "memory_usage_bytes": 904,
+    "overall_completeness_percentage": 87.5
+  },
+  "after": {
+    "total_rows": 6,
+    "total_columns": 8,
+    "missing_values": {
+      "date": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "day": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "period": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "time": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "type": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "status": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "duration_hrs": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "reason": {
+        "count": 6,
+        "percentage": 100.0
+      }
+    },
+    "missing_value_count": 6,
+    "missing_value_percentage": 12.5,
+    "duplicate_row_count": 0,
+    "data_types": {
+      "columns": {
+        "date": "str",
+        "day": "str",
+        "period": "str",
+        "time": "str",
+        "type": "str",
+        "status": "str",
+        "duration_hrs": "int64",
+        "reason": "float64"
+      },
+      "summary": {
+        "str": 6,
+        "int64": 1,
+        "float64": 1
+      }
+    },
+    "unique_values": {
+      "date": 4,
+      "day": 3,
+      "period": 3,
+      "time": 3,
+      "type": 4,
+      "status": 1,
+      "duration_hrs": 1,
+      "reason": 0
+    },
+    "invalid_values": {
+      "time": {
+        "count": 6,
+        "kind": "invalid_dates"
+      }
+    },
+    "inconsistent_formats": {
+      "whitespace_values": {},
+      "invalid_date_values": {}
+    },
+    "memory_usage_bytes": 914,
+    "overall_completeness_percentage": 87.5
+  },
+  "problems": [
+    {
+      "problem": "Column name formats",
+      "rows_affected": 0,
+      "action_taken": "Standardised column names to unique lowercase snake_case.",
+      "columns_affected": {
+        "Date": "date",
+        "Day": "day",
+        "Period": "period",
+        "Time": "time",
+        "Type": "type",
+        "Status": "status",
+        "Duration (hrs)": "duration_hrs",
+        "Reason": "reason"
+      }
+    },
+    {
+      "problem": "Inconsistent text whitespace",
+      "rows_affected": 0,
+      "values_affected": 0,
+      "action_taken": "No unnecessary text whitespace found."
+    },
+    {
+      "problem": "Date format inconsistencies",
+      "rows_affected": 6,
+      "values_affected": 6,
+      "action_taken": "Standardised fully parseable date columns to YYYY-MM-DD.",
+      "columns_affected": {
+        "date": 6
+      }
+    },
+    {
+      "problem": "Invalid dates",
+      "rows_affected": 6,
+      "values_affected": 6,
+      "action_taken": "Flagged invalid date values and preserved them without guessing a correction.",
+      "columns_affected": {
+        "time": 6
+      }
+    },
+    {
+      "problem": "Missing values",
+      "rows_affected": 6,
+      "values_affected": 6,
+      "action_taken": "Preserved missing values and reported them; no measurements or categorical values were imputed."
+    },
+    {
+      "problem": "Invalid values",
+      "rows_affected": 6,
+      "values_affected": 6,
+      "action_taken": "Flagged values outside established numerical/geographical rules or values that could not be parsed; preserved source values.",
+      "columns_affected": {
+        "time": {
+          "count": 6,
+          "kind": "invalid_dates"
+        }
+      }
+    },
+    {
+      "problem": "Unit conversions",
+      "rows_affected": 0,
+      "action_taken": "No units converted because source unit metadata was not available to establish an unambiguous conversion."
+    },
+    {
+      "problem": "Exact duplicate records",
+      "rows_affected": 0,
+      "action_taken": "No exact duplicate rows found; no rows removed."
+    }
+  ],
+  "validation": {
+    "passed": false,
+    "checks": [
+      {
+        "check": "Column names use lowercase snake_case and are unique",
+        "passed": true,
+        "details": null
+      },
+      {
+        "check": "No exact duplicate rows remain",
+        "passed": true,
+        "details": null
+      },
+      {
+        "check": "Established numerical and date rules",
+        "passed": false,
+        "details": {
+          "time": {
+            "count": 6,
+            "kind": "invalid_dates"
+          }
+        }
+      }
+    ]
+  },
+  "cleaned_filename": "044dc714abd7402ea8d29406f83b7fe3_cleaned.csv",
+  "overall_status": "review_required",
+  "latest_quality_check": null,
+  "cleaning_history": [
+    {
+      "operation": "clean",
+      "timestamp": "2026-11-15T13:40:38.354842+00:00",
+      "cleaned_filename": "044dc714abd7402ea8d29406f83b7fe3_cleaned.csv",
+      "validation": {
+        "passed": false,
+        "checks": [
+          {
+            "check": "Column names use lowercase snake_case and are unique",
+            "passed": true,
+            "details": null
+          },
+          {
+            "check": "No exact duplicate rows remain",
+            "passed": true,
+            "details": null
+          },
+          {
+            "check": "Established numerical and date rules",
+            "passed": false,
+            "details": {
+              "time": {
+                "count": 6,
+                "kind": "invalid_dates"
+              }
+            }
+          }
+        ]
+      },
+      "operations": [
+        {
+          "problem": "Column name formats",
+          "rows_affected": 0,
+          "action_taken": "Standardised column names to unique lowercase snake_case.",
+          "columns_affected": {
+            "Date": "date",
+            "Day": "day",
+            "Period": "period",
+            "Time": "time",
+            "Type": "type",
+            "Status": "status",
+            "Duration (hrs)": "duration_hrs",
+            "Reason": "reason"
+          }
+        },
+        {
+          "problem": "Inconsistent text whitespace",
+          "rows_affected": 0,
+          "values_affected": 0,
+          "action_taken": "No unnecessary text whitespace found."
+        },
+        {
+          "problem": "Date format inconsistencies",
+          "rows_affected": 6,
+          "values_affected": 6,
+          "action_taken": "Standardised fully parseable date columns to YYYY-MM-DD.",
+          "columns_affected": {
+            "date": 6
+          }
+        },
+        {
+          "problem": "Invalid dates",
+          "rows_affected": 6,
+          "values_affected": 6,
+          "action_taken": "Flagged invalid date values and preserved them without guessing a correction.",
+          "columns_affected": {
+            "time": 6
+          }
+        },
+        {
+          "problem": "Missing values",
+          "rows_affected": 6,
+          "values_affected": 6,
+          "action_taken": "Preserved missing values and reported them; no measurements or categorical values were imputed."
+        },
+        {
+          "problem": "Invalid values",
+          "rows_affected": 6,
+          "values_affected": 6,
+          "action_taken": "Flagged values outside established numerical/geographical rules or values that could not be parsed; preserved source values.",
+          "columns_affected": {
+            "time": {
+              "count": 6,
+              "kind": "invalid_dates"
+            }
+          }
+        },
+        {
+          "problem": "Unit conversions",
+          "rows_affected": 0,
+          "action_taken": "No units converted because source unit metadata was not available to establish an unambiguous conversion."
+        },
+        {
+          "problem": "Exact duplicate records",
+          "rows_affected": 0,
+          "action_taken": "No exact duplicate rows found; no rows removed."
+        }
+      ]
+    }
+  ]
+}

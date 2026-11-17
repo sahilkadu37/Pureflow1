@@ -1,0 +1,1691 @@
+{
+  "report_id": "0b418947fa9e4be8a570e73e6a4af87a",
+  "report_type": "comprehensive",
+  "generated_at": "2026-11-14T13:54:21.697479+00:00",
+  "project": {
+    "name": "PureFlow",
+    "overview": "PureFlow is a data analytics platform designed to analyse water consumption in data centres, assess data quality, identify missing values and duplicates, clean and transform datasets, and generate meaningful insights to support sustainable water management."
+  },
+  "filters": {
+    "dataset_ids": [],
+    "start_date": null,
+    "end_date": null,
+    "location": null
+  },
+  "selected_datasets": [
+    {
+      "dataset_id": "1cced4863e37452db38f10683ed66961",
+      "dataset_name": "data-center-water",
+      "source_filename": "data-center-water.csv",
+      "transformed_filename": "6954d57f60384ba28f1059194ce17052_1cced4863e37452db38f10683ed66961_standardised.csv",
+      "source_type": "csv",
+      "source_record_count": 85,
+      "record_count": 85,
+      "upload_date": "2026-11-14T05:50:57.096462+00:00",
+      "loaded_at": "2026-11-14T13:22:40.603120+00:00",
+      "processing_status": "loaded"
+    }
+  ],
+  "available_datasets": [
+    {
+      "dataset_id": "1cced4863e37452db38f10683ed66961",
+      "dataset_name": "data-center-water",
+      "source_filename": "data-center-water.csv",
+      "transformed_filename": "6954d57f60384ba28f1059194ce17052_1cced4863e37452db38f10683ed66961_standardised.csv",
+      "source_type": "csv",
+      "source_record_count": 85,
+      "record_count": 85,
+      "upload_date": "2026-11-14T05:50:57.096462+00:00",
+      "loaded_at": "2026-11-14T13:22:40.603120+00:00",
+      "processing_status": "loaded"
+    }
+  ],
+  "sources": [
+    {
+      "dataset_id": "1cced4863e37452db38f10683ed66961",
+      "source_filename": "data-center-water.csv",
+      "source_type": "csv",
+      "sources": [
+        {
+          "title": "Google 2026 Environmental Report (FY2025), table 'Water use by data center location'",
+          "url": "https://sustainability.google/files/google-2026-environmental-report.pdf"
+        },
+        {
+          "title": "Amazon Sustainability: AWS Cloud (AWS Region PUE and WUE table)",
+          "url": "https://sustainability.aboutamazon.com/products-services/aws-cloud"
+        },
+        {
+          "title": "AWS Sustainability",
+          "url": "https://aws.amazon.com/sustainability/"
+        },
+        {
+          "title": "Microsoft Datacenters: Efficiency (PUE and WUE by region)",
+          "url": "https://datacenters.microsoft.com/sustainability/efficiency/"
+        },
+        {
+          "title": "Equinix FY2025 Annual Report (SEC Form ARS)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000075/EQIXAnnualRpt2025PRINT.pdf"
+        },
+        {
+          "title": "Digital Realty press release: 2025 Impact Report (27 May 2026)",
+          "url": "https://mfn.se/all/a/digital-realty/digital-realty-publishes-2025-impact-report-highlighting-sustainability-progress-f0a795c9"
+        },
+        {
+          "title": "European Commission, COM(2026) 500 final, section 2.2.2 (21 Sep 2026)",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52026DC0500"
+        },
+        {
+          "title": "Elsworth et al. (Google), Measuring the environmental impact of delivering AI at Google Scale, arXiv:2508.15734 (21 Aug 2025)",
+          "url": "https://arxiv.org/abs/2508.15734"
+        },
+        {
+          "title": "Elsworth et al. (Google), Measuring the environmental impact of delivering AI at Google Scale, arXiv:2508.15734 (21 Aug 2025), Table 2",
+          "url": "https://arxiv.org/abs/2508.15734"
+        },
+        {
+          "title": "Sam Altman, The Gentle Singularity (blog, 10 Jun 2025)",
+          "url": "https://blog.samaltman.com/the-gentle-singularity"
+        },
+        {
+          "title": "Mistral AI, Our contribution to a global environmental standard for AI (22 Jul 2025)",
+          "url": "https://mistral.ai/news/our-contribution-to-a-global-environmental-standard-for-ai"
+        },
+        {
+          "title": "Li, Yang, Islam and Ren, Making AI Less Thirsty, arXiv:2304.03271 v5 (26 Mar 2025), Table 1",
+          "url": "https://arxiv.org/abs/2304.03271"
+        },
+        {
+          "title": "Meta 2025 Environmental Data Index, section 3 (Water), table 'Water Usage Effectiveness (WUE)'",
+          "url": "https://sustainability.atmeta.com/asset/2025-environmental-data-index"
+        },
+        {
+          "title": "Meta 2025 Environmental Data Index, section 3 (Water), tables 3.1 'Water Withdrawal by Facility' and 3.2 'Water Consumption'",
+          "url": "https://sustainability.atmeta.com/asset/2025-environmental-data-index"
+        }
+      ]
+    }
+  ],
+  "ingestion": {
+    "latest_loads": [
+      {
+        "dataset_id": "1cced4863e37452db38f10683ed66961",
+        "records_read": 85,
+        "records_inserted": 85,
+        "records_rejected": 0,
+        "duplicate_records": 0,
+        "loaded_at": "2026-11-14T13:22:40.603120+00:00",
+        "load_status": "loaded",
+        "message": "Load completed transactionally."
+      }
+    ],
+    "records_read": 85,
+    "records_inserted": 85,
+    "records_rejected": 0,
+    "duplicate_records": 0
+  },
+  "data_quality": {
+    "database_logs": [],
+    "source_quality_reports": [
+      {
+        "dataset_id": "1cced4863e37452db38f10683ed66961",
+        "summary": {
+          "rows_before": 85,
+          "rows_after": 85,
+          "columns_before": 21,
+          "columns_after": 21,
+          "missing_values_before": 569,
+          "missing_values_after": 569,
+          "duplicates_before": 0,
+          "duplicates_after": 0,
+          "completeness_before": 68.1232,
+          "completeness_after": 68.1232
+        },
+        "validation": {
+          "passed": false,
+          "checks": [
+            {
+              "check": "Column names use lowercase snake_case and are unique",
+              "passed": true,
+              "details": null
+            },
+            {
+              "check": "No exact duplicate rows remain",
+              "passed": true,
+              "details": null
+            },
+            {
+              "check": "Established numerical and date rules",
+              "passed": false,
+              "details": {
+                "source_date": {
+                  "count": 25,
+                  "kind": "invalid_dates"
+                },
+                "water_scope": {
+                  "count": 7,
+                  "kind": "invalid_numerical_values"
+                }
+              }
+            }
+          ]
+        },
+        "cleaning_history": [
+          {
+            "operation": "clean",
+            "timestamp": "2026-11-14T05:51:21.041482+00:00",
+            "cleaned_filename": "1cced4863e37452db38f10683ed66961_cleaned.csv",
+            "validation": {
+              "passed": false,
+              "checks": [
+                {
+                  "check": "Column names use lowercase snake_case and are unique",
+                  "passed": true,
+                  "details": null
+                },
+                {
+                  "check": "No exact duplicate rows remain",
+                  "passed": true,
+                  "details": null
+                },
+                {
+                  "check": "Established numerical and date rules",
+                  "passed": false,
+                  "details": {
+                    "source_date": {
+                      "count": 25,
+                      "kind": "invalid_dates"
+                    },
+                    "water_scope": {
+                      "count": 7,
+                      "kind": "invalid_numerical_values"
+                    }
+                  }
+                }
+              ]
+            },
+            "operations": [
+              {
+                "problem": "Inconsistent text whitespace",
+                "rows_affected": 0,
+                "values_affected": 0,
+                "action_taken": "No unnecessary text whitespace found."
+              },
+              {
+                "problem": "Date format inconsistencies",
+                "rows_affected": 0,
+                "values_affected": 0,
+                "action_taken": "No fully parseable date values required standardisation.",
+                "columns_affected": {}
+              },
+              {
+                "problem": "Invalid dates",
+                "rows_affected": 25,
+                "values_affected": 25,
+                "action_taken": "Flagged invalid date values and preserved them without guessing a correction.",
+                "columns_affected": {
+                  "source_date": 25
+                }
+              },
+              {
+                "problem": "Missing values",
+                "rows_affected": 85,
+                "values_affected": 569,
+                "action_taken": "Preserved missing values and reported them; no measurements or categorical values were imputed."
+              },
+              {
+                "problem": "Invalid values",
+                "rows_affected": 32,
+                "values_affected": 32,
+                "action_taken": "Flagged values outside established numerical/geographical rules or values that could not be parsed; preserved source values.",
+                "columns_affected": {
+                  "source_date": {
+                    "count": 25,
+                    "kind": "invalid_dates"
+                  },
+                  "water_scope": {
+                    "count": 7,
+                    "kind": "invalid_numerical_values"
+                  }
+                }
+              },
+              {
+                "problem": "Unit conversions",
+                "rows_affected": 0,
+                "action_taken": "No units converted because source unit metadata was not available to establish an unambiguous conversion."
+              },
+              {
+                "problem": "Exact duplicate records",
+                "rows_affected": 0,
+                "action_taken": "No exact duplicate rows found; no rows removed."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "coverage": {
+      "total_records": 85,
+      "records_with_country": 59,
+      "records_without_country": 26,
+      "records_with_consumption": 43,
+      "records_without_consumption": 42,
+      "wue_observations": 35
+    },
+    "database_validation": {
+      "valid": true,
+      "tables_present": [
+        "data_quality_logs",
+        "datasets",
+        "load_history",
+        "locations",
+        "water_metrics"
+      ],
+      "missing_tables": [],
+      "foreign_key_violations": [],
+      "integrity_check": [
+        "ok"
+      ],
+      "required_null_counts": {
+        "datasets": {
+          "dataset_id": 0,
+          "source_filename": 0,
+          "processing_status": 0
+        },
+        "locations": {
+          "place_name": 0
+        },
+        "water_metrics": {
+          "dataset_id": 0,
+          "location_id": 0,
+          "source_record_id": 0
+        }
+      },
+      "duplicate_key_counts": {
+        "dataset_id": 0,
+        "water_source_record": 0
+      },
+      "primary_key_checks": {
+        "data_quality_logs": {
+          "columns": [
+            "log_id"
+          ],
+          "duplicate_groups": 0,
+          "passed": true
+        },
+        "datasets": {
+          "columns": [
+            "dataset_id"
+          ],
+          "duplicate_groups": 0,
+          "passed": true
+        },
+        "load_history": {
+          "columns": [
+            "load_id"
+          ],
+          "duplicate_groups": 0,
+          "passed": true
+        },
+        "locations": {
+          "columns": [
+            "location_id"
+          ],
+          "duplicate_groups": 0,
+          "passed": true
+        },
+        "water_metrics": {
+          "columns": [
+            "metric_id"
+          ],
+          "duplicate_groups": 0,
+          "passed": true
+        }
+      },
+      "count_reconciliation": [
+        {
+          "dataset_id": "1cced4863e37452db38f10683ed66961",
+          "source_record_count": 85,
+          "record_count": 85,
+          "actual_records": 85,
+          "latest_records_read": 85,
+          "latest_records_rejected": 0,
+          "latest_duplicate_records": 0
+        }
+      ],
+      "count_mismatches": []
+    }
+  },
+  "cleaning_and_transformation": {
+    "cleaning": [
+      {
+        "dataset_id": "1cced4863e37452db38f10683ed66961",
+        "summary": {
+          "rows_before": 85,
+          "rows_after": 85,
+          "columns_before": 21,
+          "columns_after": 21,
+          "missing_values_before": 569,
+          "missing_values_after": 569,
+          "duplicates_before": 0,
+          "duplicates_after": 0,
+          "completeness_before": 68.1232,
+          "completeness_after": 68.1232
+        },
+        "validation": {
+          "passed": false,
+          "checks": [
+            {
+              "check": "Column names use lowercase snake_case and are unique",
+              "passed": true,
+              "details": null
+            },
+            {
+              "check": "No exact duplicate rows remain",
+              "passed": true,
+              "details": null
+            },
+            {
+              "check": "Established numerical and date rules",
+              "passed": false,
+              "details": {
+                "source_date": {
+                  "count": 25,
+                  "kind": "invalid_dates"
+                },
+                "water_scope": {
+                  "count": 7,
+                  "kind": "invalid_numerical_values"
+                }
+              }
+            }
+          ]
+        },
+        "cleaning_history": [
+          {
+            "operation": "clean",
+            "timestamp": "2026-11-14T05:51:21.041482+00:00",
+            "cleaned_filename": "1cced4863e37452db38f10683ed66961_cleaned.csv",
+            "validation": {
+              "passed": false,
+              "checks": [
+                {
+                  "check": "Column names use lowercase snake_case and are unique",
+                  "passed": true,
+                  "details": null
+                },
+                {
+                  "check": "No exact duplicate rows remain",
+                  "passed": true,
+                  "details": null
+                },
+                {
+                  "check": "Established numerical and date rules",
+                  "passed": false,
+                  "details": {
+                    "source_date": {
+                      "count": 25,
+                      "kind": "invalid_dates"
+                    },
+                    "water_scope": {
+                      "count": 7,
+                      "kind": "invalid_numerical_values"
+                    }
+                  }
+                }
+              ]
+            },
+            "operations": [
+              {
+                "problem": "Inconsistent text whitespace",
+                "rows_affected": 0,
+                "values_affected": 0,
+                "action_taken": "No unnecessary text whitespace found."
+              },
+              {
+                "problem": "Date format inconsistencies",
+                "rows_affected": 0,
+                "values_affected": 0,
+                "action_taken": "No fully parseable date values required standardisation.",
+                "columns_affected": {}
+              },
+              {
+                "problem": "Invalid dates",
+                "rows_affected": 25,
+                "values_affected": 25,
+                "action_taken": "Flagged invalid date values and preserved them without guessing a correction.",
+                "columns_affected": {
+                  "source_date": 25
+                }
+              },
+              {
+                "problem": "Missing values",
+                "rows_affected": 85,
+                "values_affected": 569,
+                "action_taken": "Preserved missing values and reported them; no measurements or categorical values were imputed."
+              },
+              {
+                "problem": "Invalid values",
+                "rows_affected": 32,
+                "values_affected": 32,
+                "action_taken": "Flagged values outside established numerical/geographical rules or values that could not be parsed; preserved source values.",
+                "columns_affected": {
+                  "source_date": {
+                    "count": 25,
+                    "kind": "invalid_dates"
+                  },
+                  "water_scope": {
+                    "count": 7,
+                    "kind": "invalid_numerical_values"
+                  }
+                }
+              },
+              {
+                "problem": "Unit conversions",
+                "rows_affected": 0,
+                "action_taken": "No units converted because source unit metadata was not available to establish an unambiguous conversion."
+              },
+              {
+                "problem": "Exact duplicate records",
+                "rows_affected": 0,
+                "action_taken": "No exact duplicate rows found; no rows removed."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "transformations": [
+      {
+        "job_id": "6954d57f60384ba28f1059194ce17052",
+        "operation": "standardise",
+        "generated_at": "2026-11-14T06:20:06.589605+00:00",
+        "dataset_ids": [
+          "1cced4863e37452db38f10683ed66961"
+        ],
+        "output_filename": "6954d57f60384ba28f1059194ce17052_1cced4863e37452db38f10683ed66961_standardised.csv",
+        "output_rows": 85,
+        "validation": {
+          "passed": false,
+          "datasets": [
+            {
+              "dataset_id": "1cced4863e37452db38f10683ed66961",
+              "passed": false,
+              "checks": [
+                {
+                  "check": "Recognized geographic/time join keys contain no missing values",
+                  "passed": false,
+                  "details": {
+                    "country": 26
+                  }
+                },
+                {
+                  "check": "Recognized date values parse consistently",
+                  "passed": false,
+                  "details": {
+                    "source_date": 25
+                  }
+                },
+                {
+                  "check": "Established geographic/numerical ranges",
+                  "passed": false,
+                  "details": {
+                    "water_scope": 7
+                  }
+                },
+                {
+                  "check": "Exact duplicate records",
+                  "passed": true,
+                  "details": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "job_id": "1d77239eb6224bc18f3e0e90a318bc48",
+        "operation": "standardise",
+        "generated_at": "2026-11-14T06:14:34.563444+00:00",
+        "dataset_ids": [
+          "1cced4863e37452db38f10683ed66961"
+        ],
+        "output_filename": "1d77239eb6224bc18f3e0e90a318bc48_1cced4863e37452db38f10683ed66961_standardised.csv",
+        "output_rows": 85,
+        "validation": {
+          "passed": false,
+          "datasets": [
+            {
+              "dataset_id": "1cced4863e37452db38f10683ed66961",
+              "passed": false,
+              "checks": [
+                {
+                  "check": "Recognized geographic/time join keys contain no missing values",
+                  "passed": false,
+                  "details": {
+                    "country": 26
+                  }
+                },
+                {
+                  "check": "Recognized date values parse consistently",
+                  "passed": false,
+                  "details": {
+                    "source_date": 25
+                  }
+                },
+                {
+                  "check": "Established geographic/numerical ranges",
+                  "passed": false,
+                  "details": {
+                    "water_scope": 7
+                  }
+                },
+                {
+                  "check": "Exact duplicate records",
+                  "passed": true,
+                  "details": null
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "job_id": "ebfc6a6dba0142589455507c10e3d0ee",
+        "operation": "standardise",
+        "generated_at": "2026-11-14T06:03:42.562381+00:00",
+        "dataset_ids": [
+          "1cced4863e37452db38f10683ed66961"
+        ],
+        "output_filename": "ebfc6a6dba0142589455507c10e3d0ee_1cced4863e37452db38f10683ed66961_standardised.csv",
+        "output_rows": 85,
+        "validation": {
+          "passed": true
+        }
+      }
+    ]
+  },
+  "database": {
+    "table_counts": {
+      "datasets": 1,
+      "locations": 74,
+      "water_metrics": 85,
+      "load_history": 1,
+      "data_quality_logs": 0
+    },
+    "schema": {
+      "datasets": [
+        {
+          "name": "dataset_id",
+          "type": "TEXT",
+          "primary_key": true,
+          "required": false
+        },
+        {
+          "name": "dataset_name",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "source_filename",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "transformed_filename",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "source_type",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "source_record_count",
+          "type": "INTEGER",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "record_count",
+          "type": "INTEGER",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "upload_date",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": false
+        },
+        {
+          "name": "loaded_at",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "processing_status",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": true
+        }
+      ],
+      "locations": [
+        {
+          "name": "location_id",
+          "type": "INTEGER",
+          "primary_key": true,
+          "required": false
+        },
+        {
+          "name": "place_name",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "country",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": false
+        }
+      ],
+      "water_metrics": [
+        {
+          "name": "metric_id",
+          "type": "INTEGER",
+          "primary_key": true,
+          "required": false
+        },
+        {
+          "name": "dataset_id",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "location_id",
+          "type": "INTEGER",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "source_record_id",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "publisher",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": false
+        },
+        {
+          "name": "metric_type",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": false
+        },
+        {
+          "name": "scope",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": false
+        },
+        {
+          "name": "measurement_period",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": false
+        },
+        {
+          "name": "measurement_month",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": false
+        },
+        {
+          "name": "reporting_year",
+          "type": "INTEGER",
+          "primary_key": false,
+          "required": false
+        },
+        {
+          "name": "wue_l_per_kwh",
+          "type": "REAL",
+          "primary_key": false,
+          "required": false
+        },
+        {
+          "name": "withdrawal_million_gal",
+          "type": "REAL",
+          "primary_key": false,
+          "required": false
+        },
+        {
+          "name": "discharge_million_gal",
+          "type": "REAL",
+          "primary_key": false,
+          "required": false
+        },
+        {
+          "name": "consumption_million_gal",
+          "type": "REAL",
+          "primary_key": false,
+          "required": false
+        },
+        {
+          "name": "consumption_million_litres",
+          "type": "REAL",
+          "primary_key": false,
+          "required": false
+        },
+        {
+          "name": "energy_wh_per_prompt",
+          "type": "REAL",
+          "primary_key": false,
+          "required": false
+        },
+        {
+          "name": "water_ml_per_prompt",
+          "type": "REAL",
+          "primary_key": false,
+          "required": false
+        },
+        {
+          "name": "water_million_litres",
+          "type": "REAL",
+          "primary_key": false,
+          "required": false
+        },
+        {
+          "name": "water_scope",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": false
+        }
+      ],
+      "load_history": [
+        {
+          "name": "load_id",
+          "type": "INTEGER",
+          "primary_key": true,
+          "required": false
+        },
+        {
+          "name": "dataset_id",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "source_filename",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "transformed_filename",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "records_read",
+          "type": "INTEGER",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "records_inserted",
+          "type": "INTEGER",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "records_rejected",
+          "type": "INTEGER",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "duplicate_records",
+          "type": "INTEGER",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "loaded_at",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "load_status",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "message",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": false
+        }
+      ],
+      "data_quality_logs": [
+        {
+          "name": "log_id",
+          "type": "INTEGER",
+          "primary_key": true,
+          "required": false
+        },
+        {
+          "name": "dataset_id",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "quality_metric",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "issue_count",
+          "type": "INTEGER",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "report_date",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": true
+        },
+        {
+          "name": "details",
+          "type": "TEXT",
+          "primary_key": false,
+          "required": false
+        }
+      ]
+    }
+  },
+  "analysis": {
+    "water_consumption": {
+      "records": 85,
+      "million_gallons": 21045.95,
+      "million_litres": 82641.9,
+      "gallon_observations": 42,
+      "litre_observations": 43,
+      "records_with_consumption": 43
+    },
+    "wue": {
+      "observations": 35,
+      "average_l_per_kwh": 0.3771428571428571,
+      "median_l_per_kwh": 0.18,
+      "minimum_l_per_kwh": 0.02,
+      "maximum_l_per_kwh": 2.85,
+      "by_location": [
+        {
+          "place_name": "Europe (Ireland)",
+          "country": "IE",
+          "average_wue_l_per_kwh": 0.02,
+          "observations": 1
+        },
+        {
+          "place_name": "Europe (Stockholm)",
+          "country": "SE",
+          "average_wue_l_per_kwh": 0.02,
+          "observations": 1
+        },
+        {
+          "place_name": "Europe, Middle East & Africa",
+          "country": null,
+          "average_wue_l_per_kwh": 0.03,
+          "observations": 2
+        },
+        {
+          "place_name": "Canada (West)",
+          "country": "CA",
+          "average_wue_l_per_kwh": 0.04,
+          "observations": 1
+        },
+        {
+          "place_name": "Asia-Pacific (Melbourne)",
+          "country": "AU",
+          "average_wue_l_per_kwh": 0.06,
+          "observations": 1
+        },
+        {
+          "place_name": "U.S. East (Northern Virginia)",
+          "country": "US",
+          "average_wue_l_per_kwh": 0.06,
+          "observations": 1
+        },
+        {
+          "place_name": "U.S. East (Ohio)",
+          "country": "US",
+          "average_wue_l_per_kwh": 0.06,
+          "observations": 1
+        },
+        {
+          "place_name": "Canada (Central)",
+          "country": "CA",
+          "average_wue_l_per_kwh": 0.06,
+          "observations": 1
+        },
+        {
+          "place_name": "South America (Sao Paulo)",
+          "country": "BR",
+          "average_wue_l_per_kwh": 0.09,
+          "observations": 1
+        },
+        {
+          "place_name": "Asia-Pacific (Sydney)",
+          "country": "AU",
+          "average_wue_l_per_kwh": 0.1,
+          "observations": 1
+        },
+        {
+          "place_name": "Europe (Spain)",
+          "country": "ES",
+          "average_wue_l_per_kwh": 0.12,
+          "observations": 1
+        },
+        {
+          "place_name": "U.S. West (Oregon)",
+          "country": "US",
+          "average_wue_l_per_kwh": 0.12,
+          "observations": 1
+        },
+        {
+          "place_name": "Europe (London)",
+          "country": "GB",
+          "average_wue_l_per_kwh": 0.14,
+          "observations": 1
+        },
+        {
+          "place_name": "Asia Pacific",
+          "country": null,
+          "average_wue_l_per_kwh": 0.14,
+          "observations": 2
+        },
+        {
+          "place_name": "Europe (Frankfurt)",
+          "country": "DE",
+          "average_wue_l_per_kwh": 0.17,
+          "observations": 1
+        },
+        {
+          "place_name": "Owned data centers (annual)",
+          "country": null,
+          "average_wue_l_per_kwh": 0.22599999999999998,
+          "observations": 5
+        },
+        {
+          "place_name": "Global",
+          "country": null,
+          "average_wue_l_per_kwh": 0.22999999999999998,
+          "observations": 3
+        },
+        {
+          "place_name": "Americas",
+          "country": null,
+          "average_wue_l_per_kwh": 0.36,
+          "observations": 2
+        },
+        {
+          "place_name": "U.S. West (Northern California)",
+          "country": "US",
+          "average_wue_l_per_kwh": 0.39,
+          "observations": 1
+        },
+        {
+          "place_name": "EU reporting data centres that use water (energy-weighted average)",
+          "country": null,
+          "average_wue_l_per_kwh": 0.58,
+          "observations": 1
+        },
+        {
+          "place_name": "Global portfolio",
+          "country": null,
+          "average_wue_l_per_kwh": 0.75,
+          "observations": 2
+        },
+        {
+          "place_name": "Global (as used for Gemini per-prompt water)",
+          "country": null,
+          "average_wue_l_per_kwh": 1.15,
+          "observations": 1
+        },
+        {
+          "place_name": "Asia-Pacific (Tokyo)",
+          "country": "JP",
+          "average_wue_l_per_kwh": 1.22,
+          "observations": 1
+        },
+        {
+          "place_name": "Asia-Pacific (Singapore)",
+          "country": "SG",
+          "average_wue_l_per_kwh": 1.57,
+          "observations": 1
+        },
+        {
+          "place_name": "Asia-Pacific (Jakarta)",
+          "country": "ID",
+          "average_wue_l_per_kwh": 2.85,
+          "observations": 1
+        }
+      ]
+    },
+    "wue_observations": [
+      {
+        "value": 0.02,
+        "place_name": "Europe (Ireland)",
+        "country": "IE",
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "cloud_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.02,
+        "place_name": "Europe (Stockholm)",
+        "country": "SE",
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "cloud_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.03,
+        "place_name": "Asia Pacific",
+        "country": null,
+        "measurement_period": "FY24 (Jul 2023 to Jun 2024)",
+        "publisher": "Microsoft",
+        "scope": "geographic_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.03,
+        "place_name": "Europe, Middle East & Africa",
+        "country": null,
+        "measurement_period": "FY25 (Jul 2024 to Jun 2025)",
+        "publisher": "Microsoft",
+        "scope": "geographic_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.03,
+        "place_name": "Europe, Middle East & Africa",
+        "country": null,
+        "measurement_period": "FY24 (Jul 2023 to Jun 2024)",
+        "publisher": "Microsoft",
+        "scope": "geographic_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.04,
+        "place_name": "Canada (West)",
+        "country": "CA",
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "cloud_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.06,
+        "place_name": "Asia-Pacific (Melbourne)",
+        "country": "AU",
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "cloud_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.06,
+        "place_name": "U.S. East (Northern Virginia)",
+        "country": "US",
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "cloud_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.06,
+        "place_name": "U.S. East (Ohio)",
+        "country": "US",
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "cloud_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.06,
+        "place_name": "Canada (Central)",
+        "country": "CA",
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "cloud_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.09,
+        "place_name": "South America (Sao Paulo)",
+        "country": "BR",
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "cloud_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.1,
+        "place_name": "Asia-Pacific (Sydney)",
+        "country": "AU",
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "cloud_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.12,
+        "place_name": "Europe (Spain)",
+        "country": "ES",
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "cloud_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.12,
+        "place_name": "U.S. West (Oregon)",
+        "country": "US",
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "cloud_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.12,
+        "place_name": "Global",
+        "country": null,
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "fleet",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.14,
+        "place_name": "Europe (London)",
+        "country": "GB",
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "cloud_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.17,
+        "place_name": "Europe (Frankfurt)",
+        "country": "DE",
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "cloud_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.18,
+        "place_name": "Owned data centers (annual)",
+        "country": null,
+        "measurement_period": "2023",
+        "publisher": "Meta",
+        "scope": "fleet",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.19,
+        "place_name": "Owned data centers (annual)",
+        "country": null,
+        "measurement_period": "2024",
+        "publisher": "Meta",
+        "scope": "fleet",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.2,
+        "place_name": "Owned data centers (annual)",
+        "country": null,
+        "measurement_period": "2022",
+        "publisher": "Meta",
+        "scope": "fleet",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.25,
+        "place_name": "Asia Pacific",
+        "country": null,
+        "measurement_period": "FY25 (Jul 2024 to Jun 2025)",
+        "publisher": "Microsoft",
+        "scope": "geographic_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.26,
+        "place_name": "Owned data centers (annual)",
+        "country": null,
+        "measurement_period": "2021",
+        "publisher": "Meta",
+        "scope": "fleet",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.27,
+        "place_name": "Global",
+        "country": null,
+        "measurement_period": "FY25 (Jul 2024 to Jun 2025)",
+        "publisher": "Microsoft",
+        "scope": "fleet",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.3,
+        "place_name": "Global",
+        "country": null,
+        "measurement_period": "FY24 (Jul 2023 to Jun 2024)",
+        "publisher": "Microsoft",
+        "scope": "fleet",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.3,
+        "place_name": "Owned data centers (annual)",
+        "country": null,
+        "measurement_period": "2020",
+        "publisher": "Meta",
+        "scope": "fleet",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.34,
+        "place_name": "Americas",
+        "country": null,
+        "measurement_period": "FY25 (Jul 2024 to Jun 2025)",
+        "publisher": "Microsoft",
+        "scope": "geographic_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.38,
+        "place_name": "Americas",
+        "country": null,
+        "measurement_period": "FY24 (Jul 2023 to Jun 2024)",
+        "publisher": "Microsoft",
+        "scope": "geographic_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.39,
+        "place_name": "U.S. West (Northern California)",
+        "country": "US",
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "cloud_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.58,
+        "place_name": "EU reporting data centres that use water (energy-weighted average)",
+        "country": null,
+        "measurement_period": "2024",
+        "publisher": "European Commission",
+        "scope": "regulatory_average",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.59,
+        "place_name": "Global portfolio",
+        "country": null,
+        "measurement_period": "2025",
+        "publisher": "Digital Realty",
+        "scope": "fleet",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 0.91,
+        "place_name": "Global portfolio",
+        "country": null,
+        "measurement_period": "2025",
+        "publisher": "Equinix",
+        "scope": "fleet",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 1.15,
+        "place_name": "Global (as used for Gemini per-prompt water)",
+        "country": null,
+        "measurement_period": "2023 and 2024",
+        "publisher": "Google",
+        "scope": "fleet",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 1.22,
+        "place_name": "Asia-Pacific (Tokyo)",
+        "country": "JP",
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "cloud_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 1.57,
+        "place_name": "Asia-Pacific (Singapore)",
+        "country": "SG",
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "cloud_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      },
+      {
+        "value": 2.85,
+        "place_name": "Asia-Pacific (Jakarta)",
+        "country": "ID",
+        "measurement_period": "2025",
+        "publisher": "Amazon Web Services",
+        "scope": "cloud_region",
+        "dataset_id": "1cced4863e37452db38f10683ed66961"
+      }
+    ],
+    "annual_trends": [
+      {
+        "reporting_year": 2024,
+        "million_gallons": null,
+        "million_litres": 2974.0,
+        "observations": 1
+      },
+      {
+        "reporting_year": 2025,
+        "million_gallons": 21045.95,
+        "million_litres": 79667.9,
+        "observations": 42
+      }
+    ],
+    "monthly_trends": [],
+    "country_comparison": [
+      {
+        "country": "AU",
+        "million_gallons": 0.2,
+        "million_litres": 0.8,
+        "observations": 1
+      },
+      {
+        "country": "BE",
+        "million_gallons": 450.8,
+        "million_litres": 1706.5,
+        "observations": 1
+      },
+      {
+        "country": "CA",
+        "million_gallons": 0.1,
+        "million_litres": 0.4,
+        "observations": 1
+      },
+      {
+        "country": "CL",
+        "million_gallons": 143.1,
+        "million_litres": 541.6999999999999,
+        "observations": 2
+      },
+      {
+        "country": "DE",
+        "million_gallons": 2.1,
+        "million_litres": 8.0,
+        "observations": 2
+      },
+      {
+        "country": "DK",
+        "million_gallons": 71.8,
+        "million_litres": 271.8,
+        "observations": 1
+      },
+      {
+        "country": "FI",
+        "million_gallons": 0.4,
+        "million_litres": 1.5,
+        "observations": 1
+      },
+      {
+        "country": "IE",
+        "million_gallons": 0.1,
+        "million_litres": 0.4,
+        "observations": 1
+      },
+      {
+        "country": "JP",
+        "million_gallons": 73.2,
+        "million_litres": 277.1,
+        "observations": 1
+      },
+      {
+        "country": "NL",
+        "million_gallons": 415.05,
+        "million_litres": 1571.1000000000001,
+        "observations": 3
+      },
+      {
+        "country": "US",
+        "million_gallons": 8446.9,
+        "million_litres": 31975.1,
+        "observations": 26
+      }
+    ],
+    "climate": {
+      "data": [],
+      "message": "No transformed dataset contains compatible climate measurements."
+    },
+    "water_stress": {
+      "data": [],
+      "message": "No transformed dataset contains water-stress assessments linked to locations."
+    }
+  },
+  "findings": [
+    {
+      "title": "Consumption reported in million gallons",
+      "value": 21045.95,
+      "unit": "million gallons",
+      "observations": 42,
+      "text": "The selected records contain 42 explicitly reported million-gallon consumption values."
+    },
+    {
+      "title": "Consumption reported in million litres",
+      "value": 82641.9,
+      "unit": "million litres",
+      "observations": 43,
+      "text": "The selected records contain 43 explicitly reported million-litre consumption values. This total is not added to the gallon total."
+    },
+    {
+      "title": "Reported WUE distribution",
+      "average_l_per_kwh": 0.3771428571428571,
+      "median_l_per_kwh": 0.18,
+      "minimum_l_per_kwh": 0.02,
+      "maximum_l_per_kwh": 2.85,
+      "observations": 35,
+      "text": "35 WUE observations are stored in L/kWh; their periods and scopes are not uniformly comparable."
+    },
+    {
+      "title": "Country-linked consumption records",
+      "countries": 11,
+      "text": "Consumption can be grouped for 11 country-coded groups; missing country codes remain excluded from this grouping."
+    },
+    {
+      "title": "Geographic metadata gaps",
+      "records_without_country": 26,
+      "records": 85,
+      "text": "26 of 85 selected observations have no country code."
+    },
+    {
+      "title": "Climate analysis unavailable",
+      "text": "No transformed dataset contains compatible climate measurements."
+    },
+    {
+      "title": "Water-stress analysis unavailable",
+      "text": "No transformed dataset contains water-stress assessments linked to locations."
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "unit-aware-monitoring",
+      "category": "Water monitoring",
+      "title": "Continue unit-aware water monitoring",
+      "explanation": "Keep consumption observations attached to their reporting period, scope, and source unit so changes can be reviewed without combining incompatible quantities.",
+      "supporting_evidence": {
+        "million_gallons_total": 21045.95,
+        "million_gallon_observations": 42,
+        "million_litres_total": 82641.9,
+        "million_litre_observations": 43
+      },
+      "related_metric": "Reported water consumption by source unit",
+      "location": null,
+      "reason": "The loaded records contain consumption in more than one reported unit; preserving unit and period context makes future monitoring interpretable.",
+      "evidence_level": "Directly observed; operational action is advisory",
+      "limitations": "These totals remain separate and are not a normalized time series. This recommendation predicts no water savings."
+    },
+    {
+      "id": "review-wue-outliers",
+      "category": "Water efficiency",
+      "title": "Review unusually high reported WUE observations",
+      "explanation": "Verify the highest WUE observations against their source documents, scope, and reporting periods before prioritizing operational follow-up.",
+      "supporting_evidence": {
+        "observations": 35,
+        "unit": "L/kWh",
+        "internal_upper_fence": 0.81,
+        "flagged_observations": [
+          {
+            "value": 0.91,
+            "location": "Global portfolio",
+            "country": null,
+            "period": "2025"
+          },
+          {
+            "value": 1.15,
+            "location": "Global (as used for Gemini per-prompt water)",
+            "country": null,
+            "period": "2023 and 2024"
+          },
+          {
+            "value": 1.22,
+            "location": "Asia-Pacific (Tokyo)",
+            "country": "JP",
+            "period": "2025"
+          },
+          {
+            "value": 1.57,
+            "location": "Asia-Pacific (Singapore)",
+            "country": "SG",
+            "period": "2025"
+          },
+          {
+            "value": 2.85,
+            "location": "Asia-Pacific (Jakarta)",
+            "country": "ID",
+            "period": "2025"
+          }
+        ]
+      },
+      "related_metric": "WUE (L/kWh)",
+      "location": "Global portfolio, Global (as used for Gemini per-prompt water), Asia-Pacific (Tokyo), Asia-Pacific (Singapore), Asia-Pacific (Jakarta)",
+      "reason": "Flagging uses the dataset's Tukey upper fence (Q3 plus 1.5 times the interquartile range), an internal screening heuristic rather than an external efficiency benchmark.",
+      "evidence_level": "Statistical screening; medium",
+      "limitations": "Records can represent different scopes, publishers, and years. An outlier is not proof of poor performance, an error, or a comparable peer result."
+    },
+    {
+      "id": "improve-location-coverage",
+      "category": "Data quality",
+      "title": "Improve location metadata coverage",
+      "explanation": "Where source documentation supports it, add country information to future transformed records and preserve unknown values as unknown.",
+      "supporting_evidence": {
+        "records": 85,
+        "records_with_country": 59,
+        "records_without_country": 26
+      },
+      "related_metric": "Country metadata completeness",
+      "location": null,
+      "reason": "Records with missing country metadata cannot participate in country-level comparisons.",
+      "evidence_level": "Directly observed; high",
+      "limitations": "A country should be added only when supported by the source. This recommendation makes no geographic inference."
+    },
+    {
+      "id": "improve-consumption-coverage",
+      "category": "Water monitoring",
+      "title": "Review water-consumption measurement coverage",
+      "explanation": "Identify whether missing consumption measurements reflect a different metric scope or unavailable source reporting, and record that context in future data submissions.",
+      "supporting_evidence": {
+        "records": 85,
+        "records_with_consumption": 43,
+        "records_without_consumption": 42
+      },
+      "related_metric": "Rows with an explicitly reported consumption measure",
+      "location": null,
+      "reason": "Rows without a consumption value cannot contribute to consumption totals or trend analysis.",
+      "evidence_level": "Directly observed; high",
+      "limitations": "Not every source row represents a consumption measurement; missing values are not treated as zero."
+    }
+  ],
+  "sustainability": {
+    "indicator_available": false,
+    "status": "data_readiness_assessment_only",
+    "message": "Available evidence is not sufficient for a comparable sustainability score. No score is calculated.",
+    "variables_assessed": [
+      {
+        "metric": "Reported water consumption",
+        "available": true,
+        "coverage": "Reported volumes retain their source units."
+      },
+      {
+        "metric": "WUE",
+        "available": true,
+        "coverage": "35 observations in L/kWh."
+      },
+      {
+        "metric": "Climate",
+        "available": false,
+        "coverage": "No transformed dataset contains compatible climate measurements."
+      },
+      {
+        "metric": "Water stress",
+        "available": false,
+        "coverage": "No transformed dataset contains water-stress assessments linked to locations."
+      },
+      {
+        "metric": "Comparable benchmark",
+        "available": false,
+        "coverage": "No external benchmark or certification target is encoded."
+      }
+    ],
+    "calculation": null,
+    "weighting": null,
+    "missing_context": [
+      "No compatible climate measurements are stored.",
+      "No linked water-stress assessments are stored.",
+      "The available observations combine different scopes and periods; no complete peer comparison is supported."
+    ]
+  },
+  "limitations": [
+    "Consumption totals are kept in source units. Million gallons and million litres are reported separately and must not be added together.",
+    "WUE is reported in L/kWh and is not a water volume. The records include varying scopes, publishers, and periods, limiting direct comparison.",
+    "Country is missing for 26 of 85 selected observations; missing geography was not inferred.",
+    "No transformed dataset contains compatible climate measurements.",
+    "No transformed dataset contains water-stress assessments linked to locations.",
+    "Source quality reports may flag incomplete or invalid fields. Cleaning preserves missing and ambiguous source values rather than imputing or guessing.",
+    "No sustainability score is calculated because comparable benchmarks and complete climate and water-stress context are unavailable."
+  ],
+  "conclusion": "The database contains water-consumption evidence in 2 explicitly reported unit group(s). It also contains 35 WUE observations in L/kWh. These results demonstrate how dataset provenance, cleaning, relational storage, and SQL analysis can support sustainability review. The current evidence supports data-readiness findings and targeted monitoring recommendations, but not a complete sustainability rating or climate/stress comparison. Country metadata is absent on 26 selected observations; improving source coverage and adding linked climate and water-risk assessments would strengthen future analysis."
+}

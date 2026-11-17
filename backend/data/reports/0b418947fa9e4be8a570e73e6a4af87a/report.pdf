@@ -1,0 +1,226 @@
+%PDF-1.4
+% PureFlow
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 4 /Kids [6 0 R 8 0 R 10 0 R 12 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 4485 >>
+stream
+BT /F2 17 Tf 48 804 Td (PureFlow Sustainability Report) Tj ET
+0.25 w 48 792 m 547 792 l S
+BT /F1 9 Tf 48 774 Td (PureFlow Sustainability Report) Tj ET
+BT /F1 9 Tf 48 760 Td (Report type: comprehensive) Tj ET
+BT /F1 9 Tf 48 746 Td (Reporting date: 2026-11-14T13:54:21.697479+00:00) Tj ET
+BT /F1 9 Tf 48 732 Td () Tj ET
+BT /F2 11 Tf 48 718 Td (PROJECT OVERVIEW) Tj ET
+BT /F1 9 Tf 48 700 Td (PureFlow is a data analytics platform designed to analyse water consumption in data centres,) Tj ET
+BT /F1 9 Tf 48 686 Td (  assess data quality, identify missing values and duplicates, clean and transform datasets, and) Tj ET
+BT /F1 9 Tf 48 672 Td (  generate meaningful insights to support sustainable water management.) Tj ET
+BT /F1 9 Tf 48 658 Td () Tj ET
+BT /F2 11 Tf 48 644 Td (SELECTED DATASETS) Tj ET
+BT /F1 9 Tf 48 626 Td (data-center-water.csv | csv | 85 stored / 85 source) Tj ET
+BT /F1 9 Tf 48 612 Td (Source: Google 2026 Environmental Report \(FY2025\), table 'Water use by data center location') Tj ET
+BT /F1 9 Tf 48 598 Td (  https://sustainability.google/files/google-2026-environmental-report.pdf) Tj ET
+BT /F1 9 Tf 48 584 Td (Source: Amazon Sustainability: AWS Cloud \(AWS Region PUE and WUE table\)) Tj ET
+BT /F1 9 Tf 48 570 Td (  https://sustainability.aboutamazon.com/products-services/aws-cloud) Tj ET
+BT /F1 9 Tf 48 556 Td (Source: AWS Sustainability https://aws.amazon.com/sustainability/) Tj ET
+BT /F1 9 Tf 48 542 Td (Source: Microsoft Datacenters: Efficiency \(PUE and WUE by region\)) Tj ET
+BT /F1 9 Tf 48 528 Td (  https://datacenters.microsoft.com/sustainability/efficiency/) Tj ET
+BT /F1 9 Tf 48 514 Td (Source: Equinix FY2025 Annual Report \(SEC Form ARS\)) Tj ET
+BT /F1 9 Tf 48 500 Td (  https://www.sec.gov/Archives/edgar/data/1101239/000110123926000075/EQIXAnnualRpt2025PRINT.pdf) Tj ET
+BT /F1 9 Tf 48 486 Td (Source: Digital Realty press release: 2025 Impact Report \(27 May 2026\) https://mfn.se/all/a/digi) Tj ET
+BT /F1 9 Tf 48 472 Td (  tal-realty/digital-realty-publishes-2025-impact-report-highlighting-sustainability-progress-f0) Tj ET
+BT /F1 9 Tf 48 458 Td (  a795c9) Tj ET
+BT /F1 9 Tf 48 444 Td (Source: European Commission, COM\(2026\) 500 final, section 2.2.2 \(21 Sep 2026\)) Tj ET
+BT /F1 9 Tf 48 430 Td (  https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52026DC0500) Tj ET
+BT /F1 9 Tf 48 416 Td (Source: Elsworth et al. \(Google\), Measuring the environmental impact of delivering AI at Google) Tj ET
+BT /F1 9 Tf 48 402 Td (  Scale, arXiv:2508.15734 \(21 Aug 2025\) https://arxiv.org/abs/2508.15734) Tj ET
+BT /F1 9 Tf 48 388 Td (Source: Elsworth et al. \(Google\), Measuring the environmental impact of delivering AI at Google) Tj ET
+BT /F1 9 Tf 48 374 Td (  Scale, arXiv:2508.15734 \(21 Aug 2025\), Table 2 https://arxiv.org/abs/2508.15734) Tj ET
+BT /F1 9 Tf 48 360 Td (Source: Sam Altman, The Gentle Singularity \(blog, 10 Jun 2025\)) Tj ET
+BT /F1 9 Tf 48 346 Td (  https://blog.samaltman.com/the-gentle-singularity) Tj ET
+BT /F1 9 Tf 48 332 Td (Source: Mistral AI, Our contribution to a global environmental standard for AI \(22 Jul 2025\)) Tj ET
+BT /F1 9 Tf 48 318 Td (  https://mistral.ai/news/our-contribution-to-a-global-environmental-standard-for-ai) Tj ET
+BT /F1 9 Tf 48 304 Td (Source: Li, Yang, Islam and Ren, Making AI Less Thirsty, arXiv:2304.03271 v5 \(26 Mar 2025\),) Tj ET
+BT /F1 9 Tf 48 290 Td (  Table 1 https://arxiv.org/abs/2304.03271) Tj ET
+BT /F1 9 Tf 48 276 Td (Source: Meta 2025 Environmental Data Index, section 3 \(Water\), table 'Water Usage Effectiveness) Tj ET
+BT /F1 9 Tf 48 262 Td (  \(WUE\)' https://sustainability.atmeta.com/asset/2025-environmental-data-index) Tj ET
+BT /F1 9 Tf 48 248 Td (Source: Meta 2025 Environmental Data Index, section 3 \(Water\), tables 3.1 'Water Withdrawal by) Tj ET
+BT /F1 9 Tf 48 234 Td (  Facility' and 3.2 'Water Consumption') Tj ET
+BT /F1 9 Tf 48 220 Td (  https://sustainability.atmeta.com/asset/2025-environmental-data-index) Tj ET
+BT /F1 9 Tf 48 206 Td () Tj ET
+BT /F2 11 Tf 48 192 Td (INGESTION AND DATA QUALITY) Tj ET
+BT /F1 9 Tf 48 174 Td (Latest successful records read: 85) Tj ET
+BT /F1 9 Tf 48 160 Td (Inserted: 85 | Rejected: 0 | Duplicates: 0) Tj ET
+BT /F1 9 Tf 48 146 Td (Database validation: passed) Tj ET
+BT /F1 9 Tf 48 132 Td (Source quality: completeness 68.1232%; missing values 569; duplicates 0.) Tj ET
+BT /F1 9 Tf 48 118 Td (Cleaning validation passed: False) Tj ET
+BT /F1 9 Tf 48 104 Td () Tj ET
+BT /F1 8 Tf 48 28 Td (PureFlow | Page 1 of 4) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4070 >>
+stream
+BT /F2 17 Tf 48 804 Td (PureFlow Sustainability Report) Tj ET
+0.25 w 48 792 m 547 792 l S
+BT /F2 11 Tf 48 774 Td (CLEANING AND TRANSFORMATION SUMMARY) Tj ET
+BT /F1 9 Tf 48 756 Td (Cleaning operation clean at 2026-11-14T05:51:21.041482+00:00; validation passed: False.) Tj ET
+BT /F1 9 Tf 48 742 Td (Transformation standardise at 2026-11-14T06:20:06.589605+00:00; 85 output rows; validation) Tj ET
+BT /F1 9 Tf 48 728 Td (  passed: False.) Tj ET
+BT /F1 9 Tf 48 714 Td (Transformation standardise at 2026-11-14T06:14:34.563444+00:00; 85 output rows; validation) Tj ET
+BT /F1 9 Tf 48 700 Td (  passed: False.) Tj ET
+BT /F1 9 Tf 48 686 Td (Transformation standardise at 2026-11-14T06:03:42.562381+00:00; 85 output rows; validation) Tj ET
+BT /F1 9 Tf 48 672 Td (  passed: True.) Tj ET
+BT /F1 9 Tf 48 658 Td () Tj ET
+BT /F2 11 Tf 48 644 Td (DATABASE TABLE COUNTS) Tj ET
+BT /F1 9 Tf 48 626 Td (datasets: 1 records) Tj ET
+BT /F1 9 Tf 48 612 Td (locations: 74 records) Tj ET
+BT /F1 9 Tf 48 598 Td (water_metrics: 85 records) Tj ET
+BT /F1 9 Tf 48 584 Td (load_history: 1 records) Tj ET
+BT /F1 9 Tf 48 570 Td (data_quality_logs: 0 records) Tj ET
+BT /F1 9 Tf 48 556 Td () Tj ET
+BT /F2 11 Tf 48 542 Td (KEY PERFORMANCE INDICATORS) Tj ET
+BT /F1 9 Tf 48 524 Td (Consumption: 21045.95 million gallons \(42 observations\)) Tj ET
+BT /F1 9 Tf 48 510 Td (Consumption: 82641.9 million litres \(43 observations\)) Tj ET
+BT /F1 9 Tf 48 496 Td (WUE: 35 observations; average 0.3771428571428571 L/kWh; median 0.18 L/kWh) Tj ET
+BT /F1 9 Tf 48 482 Td () Tj ET
+BT /F2 11 Tf 48 468 Td (ANNUAL CHART SUMMARY) Tj ET
+BT /F1 9 Tf 48 450 Td (2024: None million gallons; 2974.0 million litres) Tj ET
+BT /F1 9 Tf 48 436 Td (2025: 21045.95 million gallons; 79667.9 million litres) Tj ET
+BT /F1 9 Tf 48 422 Td (Monthly consumption summary: unavailable; no explicit compatible month is present in the) Tj ET
+BT /F1 9 Tf 48 408 Td (  selected records.) Tj ET
+BT /F1 9 Tf 48 394 Td () Tj ET
+BT /F2 11 Tf 48 380 Td (ANALYTICAL FINDINGS) Tj ET
+BT /F1 9 Tf 48 362 Td (- Consumption reported in million gallons: The selected records contain 42 explicitly reported) Tj ET
+BT /F1 9 Tf 48 348 Td (  million-gallon consumption values.) Tj ET
+BT /F1 9 Tf 48 334 Td (- Consumption reported in million litres: The selected records contain 43 explicitly reported) Tj ET
+BT /F1 9 Tf 48 320 Td (  million-litre consumption values. This total is not added to the gallon total.) Tj ET
+BT /F1 9 Tf 48 306 Td (- Reported WUE distribution: 35 WUE observations are stored in L/kWh; their periods and scopes) Tj ET
+BT /F1 9 Tf 48 292 Td (  are not uniformly comparable.) Tj ET
+BT /F1 9 Tf 48 278 Td (- Country-linked consumption records: Consumption can be grouped for 11 country-coded groups;) Tj ET
+BT /F1 9 Tf 48 264 Td (  missing country codes remain excluded from this grouping.) Tj ET
+BT /F1 9 Tf 48 250 Td (- Geographic metadata gaps: 26 of 85 selected observations have no country code.) Tj ET
+BT /F1 9 Tf 48 236 Td (- Climate analysis unavailable: No transformed dataset contains compatible climate measurements.) Tj ET
+BT /F1 9 Tf 48 222 Td (- Water-stress analysis unavailable: No transformed dataset contains water-stress assessments) Tj ET
+BT /F1 9 Tf 48 208 Td (  linked to locations.) Tj ET
+BT /F1 9 Tf 48 194 Td () Tj ET
+BT /F2 11 Tf 48 180 Td (SUSTAINABILITY RECOMMENDATIONS) Tj ET
+BT /F1 9 Tf 48 162 Td (- Continue unit-aware water monitoring \(Directly observed; operational action is advisory\)) Tj ET
+BT /F1 9 Tf 48 148 Td (  Keep consumption observations attached to their reporting period, scope, and source unit so) Tj ET
+BT /F1 9 Tf 48 134 Td (  changes can be reviewed without combining incompatible quantities.) Tj ET
+BT /F1 9 Tf 48 120 Td (  Evidence: {"million_gallons_total": 21045.95, "million_gallon_observations": 42,) Tj ET
+BT /F1 9 Tf 48 106 Td (  "million_litres_total": 82641.9, "million_litre_observations": 43}) Tj ET
+BT /F1 9 Tf 48 92 Td (  Limits: These totals remain separate and are not a normalized time series. This recommendation) Tj ET
+BT /F1 8 Tf 48 28 Td (PureFlow | Page 2 of 4) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4778 >>
+stream
+BT /F2 17 Tf 48 804 Td (PureFlow Sustainability Report) Tj ET
+0.25 w 48 792 m 547 792 l S
+BT /F1 9 Tf 48 774 Td (  predicts no water savings.) Tj ET
+BT /F1 9 Tf 48 760 Td (- Review unusually high reported WUE observations \(Statistical screening; medium\)) Tj ET
+BT /F1 9 Tf 48 746 Td (  Verify the highest WUE observations against their source documents, scope, and reporting) Tj ET
+BT /F1 9 Tf 48 732 Td (  periods before prioritizing operational follow-up.) Tj ET
+BT /F1 9 Tf 48 718 Td (  Evidence: {"observations": 35, "unit": "L/kWh", "internal_upper_fence": 0.81,) Tj ET
+BT /F1 9 Tf 48 704 Td (  "flagged_observations": [{"value": 0.91, "location": "Global portfolio", "country": null,) Tj ET
+BT /F1 9 Tf 48 690 Td (  "period": "2025"}, {"value": 1.15, "location": "Global \(as used for Gemini per-prompt water\)",) Tj ET
+BT /F1 9 Tf 48 676 Td (  "country": null, "period": "2023 and 2024"}, {"value": 1.22, "location": "Asia-Pacific) Tj ET
+BT /F1 9 Tf 48 662 Td (  \(Tokyo\)", "country": "JP", "period": "2025"}, {"value": 1.57, "location": "Asia-Pacific) Tj ET
+BT /F1 9 Tf 48 648 Td (  \(Singapore\)", "country": "SG", "period": "2025"}, {"value": 2.85, "location": "Asia-Pacific) Tj ET
+BT /F1 9 Tf 48 634 Td (  \(Jakarta\)", "country": "ID", "period": "2025"}]}) Tj ET
+BT /F1 9 Tf 48 620 Td (  Limits: Records can represent different scopes, publishers, and years. An outlier is not proof) Tj ET
+BT /F1 9 Tf 48 606 Td (  of poor performance, an error, or a comparable peer result.) Tj ET
+BT /F1 9 Tf 48 592 Td (- Improve location metadata coverage \(Directly observed; high\)) Tj ET
+BT /F1 9 Tf 48 578 Td (  Where source documentation supports it, add country information to future transformed records) Tj ET
+BT /F1 9 Tf 48 564 Td (  and preserve unknown values as unknown.) Tj ET
+BT /F1 9 Tf 48 550 Td (  Evidence: {"records": 85, "records_with_country": 59, "records_without_country": 26}) Tj ET
+BT /F1 9 Tf 48 536 Td (  Limits: A country should be added only when supported by the source. This recommendation makes) Tj ET
+BT /F1 9 Tf 48 522 Td (  no geographic inference.) Tj ET
+BT /F1 9 Tf 48 508 Td (- Review water-consumption measurement coverage \(Directly observed; high\)) Tj ET
+BT /F1 9 Tf 48 494 Td (  Identify whether missing consumption measurements reflect a different metric scope or) Tj ET
+BT /F1 9 Tf 48 480 Td (  unavailable source reporting, and record that context in future data submissions.) Tj ET
+BT /F1 9 Tf 48 466 Td (  Evidence: {"records": 85, "records_with_consumption": 43, "records_without_consumption": 42}) Tj ET
+BT /F1 9 Tf 48 452 Td (  Limits: Not every source row represents a consumption measurement; missing values are not) Tj ET
+BT /F1 9 Tf 48 438 Td (  treated as zero.) Tj ET
+BT /F1 9 Tf 48 424 Td () Tj ET
+BT /F2 11 Tf 48 410 Td (SUSTAINABILITY DATA READINESS) Tj ET
+BT /F1 9 Tf 48 392 Td (Available evidence is not sufficient for a comparable sustainability score. No score is) Tj ET
+BT /F1 9 Tf 48 378 Td (  calculated.) Tj ET
+BT /F1 9 Tf 48 364 Td (No composite sustainability score was calculated.) Tj ET
+BT /F1 9 Tf 48 350 Td () Tj ET
+BT /F2 11 Tf 48 336 Td (LIMITATIONS) Tj ET
+BT /F1 9 Tf 48 318 Td (- Consumption totals are kept in source units. Million gallons and million litres are reported) Tj ET
+BT /F1 9 Tf 48 304 Td (  separately and must not be added together.) Tj ET
+BT /F1 9 Tf 48 290 Td (- WUE is reported in L/kWh and is not a water volume. The records include varying scopes,) Tj ET
+BT /F1 9 Tf 48 276 Td (  publishers, and periods, limiting direct comparison.) Tj ET
+BT /F1 9 Tf 48 262 Td (- Country is missing for 26 of 85 selected observations; missing geography was not inferred.) Tj ET
+BT /F1 9 Tf 48 248 Td (- No transformed dataset contains compatible climate measurements.) Tj ET
+BT /F1 9 Tf 48 234 Td (- No transformed dataset contains water-stress assessments linked to locations.) Tj ET
+BT /F1 9 Tf 48 220 Td (- Source quality reports may flag incomplete or invalid fields. Cleaning preserves missing and) Tj ET
+BT /F1 9 Tf 48 206 Td (  ambiguous source values rather than imputing or guessing.) Tj ET
+BT /F1 9 Tf 48 192 Td (- No sustainability score is calculated because comparable benchmarks and complete climate and) Tj ET
+BT /F1 9 Tf 48 178 Td (  water-stress context are unavailable.) Tj ET
+BT /F1 9 Tf 48 164 Td () Tj ET
+BT /F2 11 Tf 48 150 Td (CONCLUSION) Tj ET
+BT /F1 9 Tf 48 132 Td (The database contains water-consumption evidence in 2 explicitly reported unit group\(s\). It also) Tj ET
+BT /F1 9 Tf 48 118 Td (  contains 35 WUE observations in L/kWh. These results demonstrate how dataset provenance,) Tj ET
+BT /F1 9 Tf 48 104 Td (  cleaning, relational storage, and SQL analysis can support sustainability review. The current) Tj ET
+BT /F1 8 Tf 48 28 Td (PureFlow | Page 3 of 4) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 592 >>
+stream
+BT /F2 17 Tf 48 804 Td (PureFlow Sustainability Report) Tj ET
+0.25 w 48 792 m 547 792 l S
+BT /F1 9 Tf 48 774 Td (  evidence supports data-readiness findings and targeted monitoring recommendations, but not a) Tj ET
+BT /F1 9 Tf 48 760 Td (  complete sustainability rating or climate/stress comparison. Country metadata is absent on 26) Tj ET
+BT /F1 9 Tf 48 746 Td (  selected observations; improving source coverage and adding linked climate and water-risk) Tj ET
+BT /F1 9 Tf 48 732 Td (  assessments would strengthen future analysis.) Tj ET
+BT /F1 8 Tf 48 28 Td (PureFlow | Page 4 of 4) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R >>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000020 00000 n 
+0000000069 00000 n 
+0000000146 00000 n 
+0000000243 00000 n 
+0000000345 00000 n 
+0000004882 00000 n 
+0000005018 00000 n 
+0000009140 00000 n 
+0000009276 00000 n 
+0000014106 00000 n 
+0000014243 00000 n 
+0000014887 00000 n 
+trailer
+<< /Size 13 /Root 1 0 R >>
+startxref
+15025
+%%EOF
