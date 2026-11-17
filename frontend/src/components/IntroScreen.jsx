@@ -3,14 +3,14 @@ import { motion } from 'framer-motion'
 import './IntroScreen.css'
 
 const reveal = (delay, duration = 0.8) => ({
-  initial: { opacity: 0, y: 18, filter: 'blur(7px)' },
+  initial: { opacity: 0, y: 20, filter: 'blur(7px)' },
   animate: { opacity: 1, y: 0, filter: 'blur(0px)' },
   transition: { delay, duration, ease: [0.22, 1, 0.36, 1] },
 })
 
 export default function IntroScreen({ onComplete }) {
   useEffect(() => {
-    const timer = window.setTimeout(onComplete, 11200)
+    const timer = window.setTimeout(onComplete, 19200)
     return () => window.clearTimeout(timer)
   }, [onComplete])
 
@@ -19,7 +19,7 @@ export default function IntroScreen({ onComplete }) {
     aria-label="PureFlow project introduction"
     initial={{ opacity: 1, scale: 1 }}
     animate={{ opacity: 1, scale: 1 }}
-    exit={{ opacity: 0, scale: 1.015, transition: { duration: 0.8, ease: [0.7, 0, 0.2, 1] } }}
+    exit={{ opacity: 0, scale: 1.012, transition: { duration: 0.8, ease: [0.7, 0, 0.2, 1] } }}
   >
     <div className="intro-grid" aria-hidden="true" />
     <div className="intro-orbit intro-orbit-one" aria-hidden="true" />
@@ -30,7 +30,7 @@ export default function IntroScreen({ onComplete }) {
     <div className="intro-frame">
       <header className="intro-topline">
         <span><i /> PUREFLOW <b>/</b> PROJECT INTRODUCTION</span>
-        <span className="intro-duration">DATA ENGINEERING PROJECT <b>·</b> 12 SEC</span>
+        <span className="intro-duration">DATA ENGINEERING PROJECT <b>·</b> 20 SEC</span>
       </header>
 
       <section className="intro-content">
@@ -40,28 +40,39 @@ export default function IntroScreen({ onComplete }) {
           <span className="intro-brand-rule" />
         </motion.div>
 
-        <motion.div className="intro-project" {...reveal(1.75)}>
-          <p className="intro-project-title">Water Consumption and Sustainability Analytics Platform</p>
-          <p className="intro-project-course">CIA 3 – Data Engineering Project</p>
-        </motion.div>
+        <motion.p className="intro-project-title" {...reveal(1.5, 0.9)}>
+          Water Consumption and Sustainability Analytics Platform
+        </motion.p>
 
-        <motion.section className="intro-submission" aria-label="Submitted by" {...reveal(3.7, 0.75)}>
-          <div className="intro-section-label"><span>01</span><h2>Submitted By:</h2><i /></div>
+        <motion.p className="intro-project-course" {...reveal(4.05, 0.8)}>
+          CIA 3 – DATA ENGINEERING PROJECT
+        </motion.p>
+
+        <motion.section className="intro-submission" aria-label="Submitted by" {...reveal(5.1, 0.7)}>
+          <div className="intro-section-label"><span>01</span><h2>SUBMITTED BY</h2><i /></div>
           <div className="intro-students">
-            <motion.article {...reveal(4.15, 0.75)}>
+            <motion.article
+              initial={{ opacity: 0, y: 24, scale: 0.97 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ delay: 7, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+            >
               <span className="intro-student-index">STUDENT 01</span>
-              <h3>Sahil</h3>
-              <p><span>REGISTER NUMBER</span><b>24112509</b></p>
+              <h3>SAHIL</h3>
+              <motion.p {...reveal(7.8, 0.7)}><span>Register Number:</span><b>24112509</b></motion.p>
             </motion.article>
-            <motion.article {...reveal(4.45, 0.75)}>
+            <motion.article
+              initial={{ opacity: 0, y: 24, scale: 0.97 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ delay: 7.25, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+            >
               <span className="intro-student-index">STUDENT 02</span>
-              <h3>Yash</h3>
-              <p><span>REGISTER NUMBER</span><b>24112519</b></p>
+              <h3>YASH</h3>
+              <motion.p {...reveal(8.05, 0.7)}><span>Register Number:</span><b>24112519</b></motion.p>
             </motion.article>
           </div>
         </motion.section>
 
-        <motion.div className="intro-tagline" {...reveal(7.45, 0.9)}>
+        <motion.div className="intro-tagline" {...reveal(14, 0.9)}>
           <span>OUR INTENT</span>
           <p>Smarter Water Insights. <b>Sustainable Tomorrow.</b></p>
         </motion.div>
@@ -69,7 +80,7 @@ export default function IntroScreen({ onComplete }) {
 
       <footer className="intro-footer">
         <span>PUREFLOW <b>·</b> WATER SUSTAINABILITY ANALYTICS</span>
-        <span className="intro-loading-label">ENTERING WORKSPACE</span>
+        <motion.span className="intro-loading-label" {...reveal(17, 0.5)}>PREPARING YOUR WORKSPACE</motion.span>
       </footer>
     </div>
     <div className="intro-progress" aria-hidden="true"><span /></div>
