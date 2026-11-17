@@ -31,8 +31,15 @@ def create_app(test_config=None):
 
     configured_origins = os.environ.get("PUREFLOW_CORS_ORIGINS", os.environ.get("AQUAINTEL_CORS_ORIGINS", ""))
     cors_origins = ([origin.strip() for origin in configured_origins.split(",") if origin.strip() and origin.strip() != "*"]
-                    if configured_origins else ["http://localhost:5173", "http://127.0.0.1:5173"])
-    CORS(app, resources={r"/api/*": {"origins": cors_origins}})
+                    if configured_origins else [
+                        "https://pureflow1-1.onrender.com",
+                        "http://localhost:5173",
+                        "http://127.0.0.1:5173",
+                    ])
+    CORS(app, resources={r"/api/*": {
+        "origins": cors_origins,
+        "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS", "HEAD", "PATCH"],
+    }})
 
     from app.routes import api_blueprints
     for blueprint in api_blueprints:

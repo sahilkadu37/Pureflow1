@@ -1,7 +1,9 @@
 import axios from 'axios'
 
+const apiUrl = (import.meta.env.VITE_API_URL || 'https://pureflow1.onrender.com').replace(/\/+$/, '')
+
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api',
+  baseURL: `${apiUrl}/api`,
   headers: { Accept: 'application/json' },
   timeout: 15000,
 })
